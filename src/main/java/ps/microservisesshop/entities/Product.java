@@ -1,4 +1,4 @@
-package ps.entities;
+package ps.microservisesshop.entities;
 
 import lombok.Data;
 
@@ -16,4 +16,6 @@ public class Product {
     private String name;
     private String description;
     private double price;
+
+
 }
