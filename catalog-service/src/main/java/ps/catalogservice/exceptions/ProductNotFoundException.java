@@ -1,4 +1,4 @@
-package ps.microservisesshop.exceptions;
+package ps.catalogservice.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

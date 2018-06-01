@@ -1,7 +1,7 @@
-package ps.microservisesshop.repositories;
+package ps.catalogservice.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ps.microservisesshop.entities.Product;
+import ps.catalogservice.entities.Product;
 
 import java.util.Optional;
 

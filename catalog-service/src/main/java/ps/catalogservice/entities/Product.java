@@ -1,4 +1,4 @@
-package ps.microservisesshop.entities;
+package ps.catalogservice.entities;
 
 import lombok.Data;
 

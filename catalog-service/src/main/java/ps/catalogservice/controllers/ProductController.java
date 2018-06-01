@@ -1,4 +1,4 @@
-package ps.microservisesshop.controllers;
+package ps.catalogservice.controllers;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ps.microservisesshop.entities.Product;
-import ps.microservisesshop.exceptions.ProductNotFoundException;
-import ps.microservisesshop.services.ProductService;
+import ps.catalogservice.entities.Product;
+import ps.catalogservice.exceptions.ProductNotFoundException;
+import ps.catalogservice.services.ProductService;
 
 import java.util.List;
 
