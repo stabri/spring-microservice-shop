@@ -5,6 +5,6 @@ services:
     container_name: mysqldb
     ports:
       - 3306:3306
-    enviroment:
+    environment:
       MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: catalog
